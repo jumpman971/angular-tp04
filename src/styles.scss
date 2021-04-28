@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+$font:'calibri';
+$font-size:15px;
+$color-text: #cc2af5;
+$color-h1: #3364ce;
+
+html, body {
+    font-family:$font;
+    font-size:$font-size;
+}
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+h1 {   color: $color-h1; }

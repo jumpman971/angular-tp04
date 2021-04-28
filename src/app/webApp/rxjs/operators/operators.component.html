@@ -1,0 +1,30 @@
+<h1>{{title}}</h1>
+
+<button class="btn btn-primary" (click)="createObservable1()">Créer un Observable #1</button>
+
+<button class="btn btn-primary" (click)="createObservable2()">Créer un Observable #2</button>
+
+<ul id="formations"></ul>
+
+<p></p>
+
+<ul #formations2></ul>
+
+<button #jaime class="btn btn-outline-success" id="jaime">
+    <i class="fa fa-thumbs-up fa-2x"></i>
+</button>
+
+<button #jaimePas class="btn btn-outline-danger" id="jaimePas">
+    <i class="fa fa-thumbs-down fa-2x"></i>
+</button>
+
+<p #nbJaime class="alert alert-success" id="nombreJaime"></p>
+<p #nbJaimePas class="alert alert-danger" id="nombreJaimePas"></p>
+
+<hr>
+
+<div><strong> Compteur : {{ tempsSecondes }} cycles écoulés !</strong></div>
+
+<button class="btn btn-outline-warning" (click)="toggleStartStop()">
+    <i class="fa fa-stop-circle fa-2x"></i>
+</button>-

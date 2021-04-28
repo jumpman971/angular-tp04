@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="titre" datatype="html">
+        <source>Hello Angular</source>
+        <target>Bonjour Angular</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/webApp/accueil/home/home.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ca7dd40184fcf2dc710197b0e5eecc96a7e6b665" datatype="html">
+        <source>Angular is the Best Framework in the World !</source>
+        <target>Angular est le meilleur des framework !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/webApp/accueil/home/home.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5faf9641fb2f295caf02399f36d05aede4ca4ae2" datatype="html">
+        <source>assets/images/drapeaux/en/drapeau_en.png</source>
+        <target>assets/images/drapeaux/fr/drapeau_fr.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/webApp/accueil/home/home.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c566cf11d76d8a1320eff0e78c6206cf6d02e70a" datatype="html">
+        <source>My Flag</source>
+        <target>Mon Drapeau</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/webApp/accueil/home/home.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

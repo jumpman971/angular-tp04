@@ -1,0 +1,41 @@
+$color-head-foot: #0099ff;
+$color-head-foot-font: #ffffff;
+
+.head-foot {
+    // padding-top: 2vh;
+    box-sizing: border-box;
+    color: $color-head-foot-font;
+    background-color: $color-head-foot;
+}
+
+.landing-page {
+    background-color: hsl(180, 66%, 81%);
+    display: flex;
+    /* display flex tranforme cet élément en FLEXBOX */
+    /* tous les éléments enfants (flex-items) de ce FLEXBOX pourront s'étirer (grow) ou se réduire (shrink) */
+    /* le FLEXBOX va donner une direction à ses flex-items (row ou column)*/
+    /* par défaut : row => les flex-items sont s'aligner de gauche à droite  */
+    flex-direction: column;
+    min-height: 100vh;
+    /* 100% du height du viewport */
+    text-align: center;
+    
+}
+
+app-header {
+    @extend .head-foot;
+    flex-grow: 0.1;
+}
+
+.router-outlet {
+    flex-grow: 3;
+    // flex-direction: row;
+    padding-bottom:200px !important
+   
+}
+
+app-footer {
+    @extend .head-foot;
+    flex-grow: 0.1;
+}
+
